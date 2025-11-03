@@ -116,13 +116,3 @@ The notebook currently uses Google Drive paths (e.g., /content/drive/MyDrive/...
 
 Run the Notebook:
 Open and run the Traffic.ipynb notebook using Jupyter or Google Colab.
-
-File Structure
-
-.
-├── Traffic.ipynb             # Main Jupyter Notebook with all modules
-├── README.md                 # This file
-├── metr_la_speed.csv         # (Must be added) Traffic speed dataset
-├── metr_lstm_ga_optimized.h5 # (Generated) Trained LSTM model
-├── ga_tuning_log.csv         # (Generated) Log from the GA tuning
-└── pso_results.npz           # (Generated) Optimized signal timings from PSO
